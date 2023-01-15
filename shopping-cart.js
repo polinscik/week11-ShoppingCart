@@ -18,4 +18,15 @@ button.addEventListener("click", function (){
     parent.textContent = `${textTotal}${total - (total * 0.2)}${currency}`
     button.setAttribute("disabled", "true");
     button.style.opacity = "0.7";
+    priceOne = priceOne - (priceOne * 0.2);
+    (prices[0].textContent) = priceOne + " руб.";
+    priceTwo = priceTwo - (priceTwo * 0.2);
+    (prices[1].textContent) = priceTwo + " руб.";
+    priceThree = priceThree - (priceThree * 0.2);
+    (prices[2].textContent) = priceThree + " руб.";
+    priceFour = priceFour - (priceFour * 0.2);
+    (prices[3].textContent) = priceFour + " руб.";
 })
+
+
+    
