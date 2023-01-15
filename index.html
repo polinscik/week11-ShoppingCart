@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/normalize.css" />
+        <link rel="stylesheet" href="/styles/style.css" />
+    </head>
+    <body>
+        <div class="shop">
+            <h2 class="shop__title">Корзина</h2>
+            <div class="item-box">
+                <div class="item">
+                    <div class="item__img">
+                        <img
+                            src="/assets/images/brown-teapot.jpg"
+                            alt="brown teapot"
+                        />
+                    </div>
+                    <div class="item__desc">
+                        <p class="item__name">Чайник Денби</p>
+                        <p class="item__color">Цвет: Коричневый</p>
+                        <p class="item__quantity">Количество: 1</p>
+                    </div>
+                    <div class="item__price">
+                        <p class="price">4990 руб.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img
+                            src="/assets/images/french-teapot.jpg"
+                            alt="french-teapot"
+                        />
+                    </div>
+                    <div class="item__desc">
+                        <p class="item__name">Французский ретро чайник</p>
+                        <p class="item__color">Цвет: Белый</p>
+                        <p class="item__quantity">Количество: 1</p>
+                    </div>
+                    <div class="item__price">
+                        <p class="price">6950 руб.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img
+                            src="/assets/images/jumbo-cup.jpg"
+                            alt="jumbo-cup"
+                        />
+                    </div>
+                    <div class="item__desc">
+                        <p class="item__name">
+                            Кружка с крышечкой "Бо&shy;та&shy;нический сад:
+                            Цикломена"
+                        </p>
+                        <p class="item__color">Цвет: Белый</p>
+                        <p class="item__quantity">Количество: 2</p>
+                    </div>
+                    <div class="item__price">
+                        <p class="price">3090 руб.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__img">
+                        <img
+                            src="/assets/images/green-plate.jpg"
+                            alt="green-plate"
+                        />
+                    </div>
+                    <div class="item__desc">
+                        <p class="item__name">Блюдце Зеленый Дракон, Мейсен</p>
+                        <p class="item__color">Цвет: Белый</p>
+                        <p class="item__quantity">Количество: 2</p>
+                    </div>
+                    <div class="item__price">
+                        <p class="price">3600 руб.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shop__checkout">
+                <button class="discount-btn" id="applyDiscount">
+                    Использовать купон на 20%
+                </button>
+                <div class="shop__total">
+                    <p id="total"></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="/shopping-cart.js"></script>
+    </body>
+</html>
